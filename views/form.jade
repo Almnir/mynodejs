@@ -1,0 +1,8 @@
+doctype html
+html
+  head
+    title Upload
+  body
+    form(action='/upload', method='post', enctype='multipart/form-data')
+      input(name='file', type='file')
+      input(type='submit')
